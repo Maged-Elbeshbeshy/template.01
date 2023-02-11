@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    position: relative;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.808);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    
+}
+.middle{
+    border: 2px solid #b9b9b9;
+    border-radius: 5px;
+    font-size: 30px;
+    width: 300px;
+    margin:20px auto;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 5px 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.308); 
+    color: transparent;
+    background-image: linear-gradient(rgb(167, 218, 218) ,rgb(76, 95, 95));
+    background-repeat: no-repeat;
+    -webkit-background-clip: text; 
+    background-position: -280px 0;
+    animation: maged 5s linear infinite alternate;
+    box-shadow: 2px 2px 4px 2px rgb(67, 107, 109);
+}
+@keyframes maged{
+    100%{
+        background-position: 0px 0;
+    }
+}
+
+.div-1{
+    width: 300px;
+    height: 60px;
+    background-color: brown;
+    margin: 10px auto;
+    animation-name: div-1;
+    animation-duration: 3s;
+    animation-delay: 3s;
+
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+@keyframes div-1{
+    0%{width: 300px;}
+    50%{width: 100%;}
+    100%{width: 300px;}
+}
+.div-2{
+    width: 300px;
+    height: 60px;
+    background-color: #8b2222c5;
+    margin: 10px auto;
+    animation-name: div-2;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+
+}
+@keyframes div-2{
+    0%{width: 300px;}
+    50%{width: 100%;}
+    100%{width: 300px;}
+}
+.div-3{
+    width: 300px;
+    height: 60px;
+    background-color: #8b2222a1;
+    margin: 10px auto;
+    animation-name: div-3;
+    animation-duration: 3s;
+    animation-delay: 9s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+@keyframes div-3{
+    0%{width: 300px;}
+    50%{width: 100%;}
+    100%{width: 300px;}
+}
+.div-4{
+    width: 300px;
+    height: 60px;
+    background-color: #8b222283;
+    margin: 10px auto;
+    animation-name: div-4;
+    animation-duration: 3s;
+    animation-delay: 12s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+@keyframes div-4{
+    0%{width: 300px;}
+    50%{width: 100%;}
+    100%{width: 300px;}
+}
+.div-5{
+    width: 300px;
+    height: 60px;
+    background-color: #8b22225b;
+    margin: 10px auto;
+    animation-name: div-5;
+    animation-duration: 3s;
+    animation-delay: 15s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+@keyframes div-5{
+    0%{width: 300px;}
+    50%{width: 100%;}
+    100%{width: 300px;}
+}
+.div-6{
+    width: 300px;
+    height: 60px;
+    background-color: #8b22223d;
+    margin: 10px auto;
+    animation-name: div-5;
+    animation-duration: 3s;
+    animation-delay: 18s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    
+}
+@keyframes div-5{
+    0%{width: 300px;}
+    50%{width: 100%;}
+    100%{width: 300px;}
+}
+.dot{
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    border-radius: 50%;
+    animation: translate 300ms infinite ease-in-out alternate;
+    
+}
+    .d-flex .dot:nth-child(1){
+        animation-delay: 100ms;
+    background-color: saddlebrown;
+
+    }
+    .d-flex .dot:nth-child(2){
+        animation-delay: 200ms;
+    background-color: chocolate;
+
+    }
+    .d-flex .dot:nth-child(3){
+        animation-delay: 300ms;
+    background-color: coral;
+
+    }
+@keyframes translate{
+    to{
+        transform: translateY(12px);
+    }
+}
